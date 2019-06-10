@@ -3,7 +3,7 @@ FLUI Framework (short for Fluent UI Framework) is an effort to bring standardisa
 
 
 ## How to use
-Add the following [NuGet package](https://www.nuget.org/packages/FLUI/0.0.8-alpha) (old package, will be updated) to your project and reference it in your App.xaml. flui is a reference in your XAML to FluiFramework.UWP.Core.
+Add the following [NuGet package](https://www.nuget.org/packages/FluiFramework.UWP/0.0.22-alpha) to your project and reference it in your App.xaml. flui is a reference in your XAML to FluiFramework.UWP.Core.
 
     <Application.Resources>
         <ResourceDictionary>
