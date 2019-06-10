@@ -1,0 +1,83 @@
+﻿<Page
+    x:Class="FluiFramework.UWP.SampleApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FluiFramework.UWP.SampleApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    Margin="24,12">
+            <!-- Header -->
+            <StackPanel Orientation="Horizontal"
+                        Margin="{ThemeResource DialogTitleMargin}">
+
+                <TextBlock Text="Header"
+                           Style="{ThemeResource FluentHeaderTextStyle}" />
+            </StackPanel>
+
+            <!-- Subheader-->
+            <StackPanel Orientation="Horizontal"
+                        Margin="{ThemeResource DialogTitleMargin}">
+
+                <TextBlock Text="Subheader"
+                           Style="{ThemeResource FluentSubheaderTextStyle}" />
+            </StackPanel>
+
+            <!-- Title -->
+            <StackPanel Orientation="Horizontal"
+                        Margin="{ThemeResource DialogTitleMargin}">
+                <TextBlock Text="&#xE164;"
+                           Style="{ThemeResource FluentTitleIconStyle}" />
+                <TextBlock Text="Title"
+                           Style="{ThemeResource FluentTitleTextStyle}" />
+            </StackPanel>
+
+            <!-- Light Title -->
+            <StackPanel Orientation="Horizontal"
+                        Margin="{ThemeResource DialogTitleMargin}">
+
+                <TextBlock Text="Light Title"
+                           Style="{ThemeResource FluentLightTitleTextStyle}" />
+            </StackPanel>
+
+            <!-- Base -->
+            <StackPanel Orientation="Horizontal"
+                        Margin="{ThemeResource DialogTitleMargin}">
+                <TextBlock Text="&#xE164;"
+                           Style="{ThemeResource FluentBaseIconStyle}" />
+                <TextBlock Text="Base"
+                           Style="{ThemeResource FluentBaseTextStyle}" />
+            </StackPanel>
+
+            <!-- Body -->
+            <StackPanel Orientation="Horizontal"
+                        Margin="{ThemeResource DialogTitleMargin}">
+                <TextBlock Text="&#xE164;"
+                           Style="{ThemeResource FluentBodyIconStyle}" />
+                <TextBlock Text="Body"
+                           Style="{ThemeResource FluentBodyTextStyle}" />
+            </StackPanel>
+
+            <!-- Subbody -->
+            <StackPanel Orientation="Horizontal"
+                        Margin="{ThemeResource DialogTitleMargin}">
+                <TextBlock Text="Subbody"
+                           Style="{ThemeResource FluentSubbodyTextStyle}" />
+            </StackPanel>
+
+            <!-- Caption -->
+            <StackPanel Orientation="Horizontal"
+                        Margin="{ThemeResource DialogTitleMargin}">
+                <TextBlock Text="&#xE164;"
+                           Style="{ThemeResource FluentCaptionIconStyle}" />
+                <TextBlock Text="Caption"
+                           Style="{ThemeResource FluentCaptionTextStyle}" />
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>
