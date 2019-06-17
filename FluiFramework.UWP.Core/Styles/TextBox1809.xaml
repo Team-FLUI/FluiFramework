@@ -7,8 +7,9 @@
 
     <!-- Fluent TextBox -->
     <Style x:Key="FluentTextBoxStyle" TargetType="TextBox">
+        <Setter Property="CornerRadius" Value="2" />
         <Setter Property="Padding" Value="12,6" />
         <Setter Property="BorderThickness" Value="1" />
     </Style>
-
+        
 </ResourceDictionary>

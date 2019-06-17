@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Foundation.Metadata;
 using Windows.UI.Xaml;
 
 namespace FluiFramework.UWP.Core
@@ -11,13 +12,23 @@ namespace FluiFramework.UWP.Core
     {
         public FluiFrameworkThemeResources()
         {
-            // Regular styles
-            this.MergedDictionaries.Add(new ResourceDictionary { Source = new Uri("ms-appx:///FluiFramework.UWP.Core/Styles/_Thickness.xaml") });
-            this.MergedDictionaries.Add(new ResourceDictionary { Source = new Uri("ms-appx:///FluiFramework.UWP.Core/Styles/_Corners.xaml") });
+            // Check OS version and show enable the correct styles compatible with those versions            
+            if (ApiInformation.IsApiContractPresent("Windows.Foundation.UniversalApiContract", 7))  // Minimal 1809
+            {
+                this.MergedDictionaries.Add(new ResourceDictionary { Source = new Uri("ms-appx:///FluiFramework.UWP.Core/Styles/_Corners1809.xaml") });
+                this.MergedDictionaries.Add(new ResourceDictionary { Source = new Uri("ms-appx:///FluiFramework.UWP.Core/Styles/TextBox1809.xaml") });
+            }
+            else // Pre-1809
+            {
+                this.MergedDictionaries.Add(new ResourceDictionary { Source = new Uri("ms-appx:///FluiFramework.UWP.Core/Styles/TextBox.xaml") });
+            }
 
-            // Control styles
+            // Compatible between all versions:
+            // Regular Styles
+            this.MergedDictionaries.Add(new ResourceDictionary { Source = new Uri("ms-appx:///FluiFramework.UWP.Core/Styles/_Thickness.xaml") });
+
+            // Control Styles
             this.MergedDictionaries.Add(new ResourceDictionary { Source = new Uri("ms-appx:///FluiFramework.UWP.Core/Styles/TextBlock.xaml") });
-            this.MergedDictionaries.Add(new ResourceDictionary { Source = new Uri("ms-appx:///FluiFramework.UWP.Core/Styles/TextBox.xaml") });
         }
     }
 }

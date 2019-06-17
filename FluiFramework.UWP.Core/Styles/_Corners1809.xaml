@@ -2,7 +2,9 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:FluiFramework.UWP.Core.Styles">
-    <!-- LAST UPDATED ON - 06 June 2019 -->
+    <!-- LAST UPDATED ON - 17 June 2019 -->
+    
+    <!-- NOTE: The CornerRadius option has been added in the 1809 SDK, so these conditional parameters are needed to make it properly work under older SDKs -->
 
 
     <!-- Fluent Dialog corners -->
