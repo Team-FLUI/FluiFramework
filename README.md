@@ -3,7 +3,7 @@ FLUI Framework (short for Fluent UI Framework) is an effort to bring standardisa
 
 
 ## How to use
-Add the following [NuGet package](https://www.nuget.org/packages/FluiFramework.UWP/0.0.22-alpha) to your project and reference it in your App.xaml. flui is a reference in your XAML to FluiFramework.UWP.Core.
+Add the following [NuGet package](https://www.nuget.org/packages/FluiFramework.UWP) to your project and reference it in your App.xaml. flui is a reference in your XAML to FluiFramework.UWP.Core.
 
     <Application.Resources>
         <ResourceDictionary>
@@ -15,7 +15,7 @@ Add the following [NuGet package](https://www.nuget.org/packages/FluiFramework.U
 
 
 ## Supported Windows versions
-**Minimal supported Windows 10 version:** 17763 (Version 1809)
+**Minimal supported Windows 10 version:** 15063 (Version 1703, Creators Update)
 
 **Target supported Windows 10 version:** 18362 (Version 1903)
 
@@ -25,8 +25,11 @@ Add the following [NuGet package](https://www.nuget.org/packages/FluiFramework.U
 * Windows 10 Team ✔
 * Windows 10 Holographic ✔
 * Windows 10 Xbox ✔
+* Windows 10 Mobile ✔
 
-* Windows 10 Mobile ❌ - (Mobile is stuck on RS2, and won't get any new features that are being used by these tools)
+
+## Notes
+FLUI Framework will automatically check which resources can be applied on the running Windows version. If the running OS version doesn't support a feature (like the CornerRadius on pre-1809 devices) it'll use a compatible version of the stylesheet that doesn't incorporate it and thus won't use rounded corners.
 
 
 ## Support us
