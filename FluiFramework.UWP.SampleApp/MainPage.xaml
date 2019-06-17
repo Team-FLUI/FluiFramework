@@ -77,6 +77,12 @@
                 <TextBlock Text="Caption"
                            Style="{ThemeResource FluentCaptionTextStyle}" />
             </StackPanel>
+            
+            <!-- TextBox -->
+            <TextBox PlaceholderText="Fluent TextBox"
+                     Style="{ThemeResource FluentTextBoxStyle}" />
+
+
         </StackPanel>
 
     </Grid>
