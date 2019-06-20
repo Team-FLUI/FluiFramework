@@ -10,6 +10,9 @@
     <!-- Fluent Dialog corners -->
     <CornerRadius x:Key="FluentDialogCorners">2</CornerRadius>
 
+    <!-- Fluent ComboBox Corners-->
+    <CornerRadius x:Key="FluentComboBoxCorners">2</CornerRadius>
+
     <!-- Fluent TextBox Corners-->
     <CornerRadius x:Key="FluentTextBoxCorners">2</CornerRadius>
 

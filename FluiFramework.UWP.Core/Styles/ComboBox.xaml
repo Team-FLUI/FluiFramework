@@ -6,9 +6,9 @@
 
 
     <!-- Fluent TextBox -->
-    <Style x:Key="FluentTextBoxStyle" TargetType="TextBox">
+    <Style x:Key="FluentComboBoxStyle" TargetType="ComboBox">
         <Setter Property="Padding" Value="12,8" />
         <Setter Property="BorderThickness" Value="1" />
     </Style>
-
+    
 </ResourceDictionary>

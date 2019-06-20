@@ -80,8 +80,19 @@
             
             <!-- TextBox -->
             <TextBox PlaceholderText="Fluent TextBox"
+                     AcceptsReturn="True"
+                     Margin="{ThemeResource ContentDialogTitleMargin}"
                      Style="{ThemeResource FluentTextBoxStyle}" />
 
+            <!-- ComboBox -->
+            <ComboBox Margin="{ThemeResource ContentDialogTitleMargin}"
+                      SelectedIndex="0"
+                      MinWidth="256"
+                      Style="{ThemeResource FluentComboBoxStyle}">
+                <ComboBoxItem Content="Item 1" />
+                <ComboBoxItem Content="Item 2" />
+                <ComboBoxItem Content="Item 3" />
+            </ComboBox>
 
         </StackPanel>
 
