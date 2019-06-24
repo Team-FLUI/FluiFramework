@@ -38,6 +38,8 @@ After you've done this you can use the styles laid out in the Wiki on the contro
 ## Notes
 FLUI Framework will automatically check which resources can be applied on the running Windows version. If the running OS version doesn't support a feature (like the CornerRadius on pre-1809 devices) it'll use a compatible version of the stylesheet that doesn't incorporate it and thus won't use rounded corners.
 
+Please note that this library still is in full development. Styles (aside from the TextBlock-styles) can be updates with a (slightly) different look over time to align it more with the Fluent Design specifications from Microsoft or due to compatibility reasons.
+
 
 ## Support us
 **Like this project?** Support it by using it in your UWP projects and to share about it with #FLUI and #FluiFramework on Twitter!
