@@ -40,6 +40,7 @@ FLUI Framework will automatically check which resources can be applied on the ru
 
 Please note that this library still is in full development. Styles (aside from the TextBlock-styles) can be updates with a (slightly) different look over time to align it more with the Fluent Design specifications from Microsoft or due to compatibility reasons.
 
+This projects is not affiliated with Microsoft, but they are free to reach out and/or use the code within the project for addition to their own repositories. :)
 
 ## Support us
 **Like this project?** Support it by using it in your UWP projects and to share about it with #FLUI and #FluiFramework on Twitter!
