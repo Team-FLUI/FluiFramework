@@ -4,7 +4,7 @@ FLUI Framework (short for Fluent UI Framework) is an effort to bring standardisa
 This library is meant to fill the gaps of the [WinUI library](https://github.com/Microsoft/microsoft-ui-xaml) by providing styles and margins for classic controls and standard TextBlocks. It also adds styles for icons to be used in tandem with their respective style whereas MDL2 was lacking such a thing. 
 
 ## Current styles
-![Fonts and Controls FLUI Framework vs MDL2](https://raw.githubusercontent.com/Team-FLUI/FluiFramework/master/.github/Assets/Readme/FontsControls-2019-6-24.png)
+![Fonts and Controls FLUI Framework vs MDL2](https://raw.githubusercontent.com/Team-FLUI/FluiFramework/master/.github/Assets/Readme/FontsControls-2019-7-17.png)
 
 ## How to use
 Add the following [NuGet package](https://www.nuget.org/packages/FluiFramework.UWP) to your project and reference it in your App.xaml. flui is a reference in your XAML to FluiFramework.UWP.Core.
