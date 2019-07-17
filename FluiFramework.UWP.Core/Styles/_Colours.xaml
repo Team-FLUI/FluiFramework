@@ -1,0 +1,46 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FluiFramework.UWP.Core.Styles">
+    <ResourceDictionary.ThemeDictionaries>
+        <!-- Light -->
+        <ResourceDictionary x:Key="Light">
+            
+            <!-- Button -->
+            <SolidColorBrush x:Key="FluentButtonBorderBrush" Color="#FF323130" />
+            
+        </ResourceDictionary>
+
+        <!-- Dark -->
+        <ResourceDictionary x:Key="Dark">
+            
+            <!-- Button -->
+            <SolidColorBrush x:Key="FluentButtonBorderBrush" Color="#FFEBEBEB" />
+            
+        </ResourceDictionary>
+
+        <!-- High Contrast -->
+        <ResourceDictionary x:Key="HighContrast">
+
+            <!-- Button -->
+            <SolidColorBrush x:Key="FluentButtonBorderBrush" Color="White" />
+            
+        </ResourceDictionary>
+
+        <!-- High Contrast Black -->
+        <ResourceDictionary x:Key="HighContrastBlack">
+
+            <!-- Button -->
+            <SolidColorBrush x:Key="FluentButtonBorderBrush" Color="White" />
+            
+        </ResourceDictionary>
+
+        <!-- High Contrast White -->
+        <ResourceDictionary x:Key="HighContrastWhite">
+
+            <!-- Button -->
+            <SolidColorBrush x:Key="FluentButtonBorderBrush" Color="Black" />
+            
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+</ResourceDictionary>

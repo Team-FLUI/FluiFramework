@@ -94,6 +94,16 @@
                 <ComboBoxItem Content="Item 3" />
             </ComboBox>
 
+            <!-- Button -->
+            <StackPanel Orientation="Vertical">
+                <Button Content="Standard Button"
+                        Margin="{ThemeResource ContentDialogTitleMargin}"
+                        Style="{ThemeResource FluentButtonStandardStyle}"/>
+                <Button Content="Accent Button"
+                        Margin="{ThemeResource ContentDialogTitleMargin}"
+                        Style="{ThemeResource FluentButtonAccentStyle}"/>
+            </StackPanel>
+
         </StackPanel>
 
     </Grid>
