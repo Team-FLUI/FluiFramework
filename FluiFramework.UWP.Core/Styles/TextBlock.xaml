@@ -35,13 +35,13 @@
         <Setter Property="VerticalAlignment" Value="Center" />
     </Style>
 
-
     <!-- Light Title -->
     <Style x:Key="FluentLightTitleTextStyle" TargetType="TextBlock">
         <Setter Property="FontWeight" Value="Light" />
         <Setter Property="FontSize" Value="18" />
     </Style>
 
+    
     <!-- Base -->
     <Style x:Key="FluentBaseTextStyle" TargetType="TextBlock">
         <Setter Property="FontWeight" Value="SemiBold" />
@@ -63,13 +63,13 @@
         <!-- Added for easy editing -->
     </Style>
 
-
     <!-- Subbody -->
     <!-- This will be the same as Body, but with the text in grey -->
     <Style x:Key="FluentSubbodyTextStyle" TargetType="TextBlock" BasedOn="{StaticResource FluentBodyTextStyle}">
         <Setter Property="Foreground" Value="{ThemeResource SystemControlForegroundBaseMediumBrush}" />
     </Style>
 
+    
     <!-- Caption -->
     <Style x:Key="FluentCaptionTextStyle" TargetType="TextBlock">
         <Setter Property="FontWeight" Value="Normal" />
@@ -78,6 +78,11 @@
 
     <Style x:Key="FluentCaptionIconStyle" TargetType="TextBlock" BasedOn="{StaticResource FluentTitleIconStyle}">
         <!-- Added for easy editing -->
+    </Style>
+
+    <!-- This will be the same as Caption, but with the text in grey. Can be used for stuff like KeyboardAccellerator hints -->
+    <Style x:Key="FluentSubcaptionTextStyle" TargetType="TextBlock" BasedOn="{StaticResource FluentCaptionTextStyle}">
+        <Setter Property="Foreground" Value="{ThemeResource SystemControlForegroundBaseMediumBrush}" />
     </Style>
 
 
