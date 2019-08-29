@@ -19,7 +19,7 @@ Add the following [NuGet package](https://www.nuget.org/packages/FluiFramework.U
 
 After you've done this you can use the styles laid out in the Wiki on the controls specified there. For instance, you can give a title TextBlock a Fluent title by applying the *FluentTitleTextStyle* style. For example:
 
-`<TextBlock Text="Title" Style="{ThemeResource FluentTitleTextStyle" />`
+`<TextBlock Text="Title" Style="{ThemeResource FluentTitleTextStyle}" />`
 
 ## Supported Windows versions
 **Minimal supported Windows 10 version:** 15063 (Version 1703, Creators Update)
