@@ -2,13 +2,20 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:FluiFramework.UWP.Core.Styles">
-    <!-- LAST UPDATED ON - 22 July 2019 -->
+    <!-- LAST UPDATED ON - 29 August 2019 -->
 
-
+    
     <!-- Fluent Standard Button -->
     <Style x:Key="FluentButtonStandardStyle" TargetType="Button" BasedOn="{StaticResource ButtonRevealStyle}">
         <Setter Property="Background" Value="Transparent" />
         <Setter Property="BorderBrush" Value="{ThemeResource FluentButtonBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Padding" Value="16,8" />
+    </Style>
+
+    <!-- Fluent Classic Button -->
+    <Style x:Key="FluentButtonClassicStyle" TargetType="Button" BasedOn="{StaticResource ButtonRevealStyle}">
         <Setter Property="BorderThickness" Value="1" />
         <Setter Property="FontWeight" Value="SemiBold" />
         <Setter Property="Padding" Value="16,8" />
