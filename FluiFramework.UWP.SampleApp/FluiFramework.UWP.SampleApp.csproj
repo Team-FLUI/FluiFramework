@@ -193,14 +193,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FluiFramework.UWP">
+      <Version>0.0.30</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.8</Version>
     </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="FluiFramework.UWP.Core">
-      <HintPath>..\FluiFramework.UWP.Core\bin\Debug\FluiFramework.UWP.Core.winmd</HintPath>
-    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

@@ -99,6 +99,9 @@
                 <Button Content="Standard Button"
                         Margin="{ThemeResource ContentDialogTitleMargin}"
                         Style="{ThemeResource FluentButtonStandardStyle}"/>
+                <Button Content="Standard Dialog Button"
+                        Margin="{ThemeResource ContentDialogTitleMargin}"
+                        Style="{ThemeResource FluentDialogButtonStandardStyle}"/>
                 <Button Content="Classic Button"
                         Margin="{ThemeResource ContentDialogTitleMargin}"
                         Style="{ThemeResource FluentButtonClassicStyle}"/>

@@ -31,10 +31,29 @@
         <Setter Property="Padding" Value="16,8" />
     </Style>
 
+    
+    <!-- Icon Button -->
+    <Style x:Key="FluentIconButtonStyle" TargetType="Button" BasedOn="{StaticResource ButtonRevealStyle}">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="CornerRadius" Value="2" />
+        <Setter Property="FontFamily" Value="Segoe MDL2 Assets" />
+        <Setter Property="Height" Value="40" />
+        <Setter Property="Width" Value="40" />
+    </Style>
 
     <!-- Dialog Buttons -->
+    <!-- Fluent Dialog Button -->
+    <Style x:Key="FluentDialogButtonStandardStyle" TargetType="Button" BasedOn="{StaticResource FluentButtonStandardStyle}">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="{ThemeResource SystemChromeGrayColor}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="2" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Padding" Value="16,8" />
+    </Style>
+    
     <!-- Header buttons -->
-    <Style x:Key="FluentDialogButtonCloseStyle" TargetType="Button" BasedOn="{StaticResource ButtonRevealStyle}">
+    <Style x:Key="FluentDialogButtonCloseStyle" TargetType="Button" BasedOn="{StaticResource FluentIconButtonStyle}">
         <Setter Property="Background" Value="Transparent" />
         <Setter Property="Content" Value="&#xE106;" />
         <Setter Property="CornerRadius" Value="2" />
@@ -43,7 +62,7 @@
         <Setter Property="Width" Value="40" />
     </Style>
 
-    <Style x:Key="FluentDialogButtonBackStyle" TargetType="Button" BasedOn="{StaticResource ButtonRevealStyle}">
+    <Style x:Key="FluentDialogButtonBackStyle" TargetType="Button" BasedOn="{StaticResource FluentIconButtonStyle}">
         <Setter Property="Background" Value="Transparent" />
         <Setter Property="Content" Value="&#xE0C4;" />
         <Setter Property="CornerRadius" Value="2" />
