@@ -53,6 +53,14 @@
         <Setter Property="HorizontalContentAlignment" Value="Stretch" />
         <Setter Property="Padding" Value="12,8" />
     </Style>
+
+    <!-- Fluent Dialog Accent Button-->
+    <Style x:Key="FluentDialogButtonAccentStyle" TargetType="Button" BasedOn="{StaticResource FluentDialogButtonStandardStyle}">
+        <Setter Property="Background" Value="{ThemeResource SystemControlBackgroundAccentBrush}" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Foreground" Value="{ThemeResource SystemControlForegroundChromeWhiteBrush}" />
+    </Style>
+    
     <!-- Big Dialog Button -->
     <Style x:Key="FluentDialogButtonBigStyle" TargetType="Button" BasedOn="{StaticResource FluentDialogButtonStandardStyle}">
         <Setter Property="Padding" Value="12" />
